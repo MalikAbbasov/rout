@@ -1,0 +1,34 @@
+.nav{
+    max-width: 100vw;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(128, 0, 0);
+    color: white;
+    h2{
+        font-size: 26px;
+        cursor: pointer;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        text-decoration: none;
+        gap: 15px;
+        li{
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+        }
+    }
+    .active{
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
